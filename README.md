@@ -27,3 +27,9 @@ Este proyecto consiste en una aplicación de microservicios que incluye un backe
    ```bash
    git clone https://github.com/ErickMontalvo732/beer-hub.git
    
+## Instalaciones necesarias
+
+1. **Maven**
+   1.1 **Version: Apache Maven 3.9.4** 
+
+   
