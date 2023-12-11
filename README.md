@@ -13,8 +13,8 @@ Este proyecto consiste en una aplicación de microservicios que incluye un backe
 ### Backend
 - **Base de Datos:** PostgreSQL
   - Nombre de la Base de Datos: `BeerDB`
-  - Usuario: `postgres`
-  - Contraseña: `postgres@password`
+  - Usuario: `.env`
+  - Contraseña: `.env`
 
 ### Frontend
 - **Angular:**
@@ -25,5 +25,5 @@ Este proyecto consiste en una aplicación de microservicios que incluye un backe
 
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/microservices-app.git
-   cd microservices-app
+   git clone https://github.com/ErickMontalvo732/beer-hub.git
+   
