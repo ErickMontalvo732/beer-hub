@@ -35,6 +35,8 @@ Este proyecto consiste en una aplicación de microservicios que incluye un backe
    - Version: `Java version: 17.0.8`
 3. **Spring Tool Suite 4**
     - Pueden usar el IDE de su preferencia
+4. **Docker**
+    - https://docs.docker.com/desktop/install/windows-install/
 
    
 
