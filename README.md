@@ -30,7 +30,12 @@ Este proyecto consiste en una aplicación de microservicios que incluye un backe
 ## Instalaciones necesarias
 
 1. **Maven**
-   ```bash
-   1.1 **Version:** Apache Maven 3.9.4
+   - Version: `Apache Maven 3.9.4`
+2. **Java**
+   - Version: `Java version: 17.0.8`
+3. **Spring Tool Suite 4**
+    - Pueden usar el IDE de su preferencia
+
+   
 
    
