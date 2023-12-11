@@ -39,6 +39,6 @@ Este proyecto consiste en una aplicación de microservicios que incluye un backe
 4. **Docker**
     - https://docs.docker.com/desktop/install/windows-install/
 
-   
+## Más Documentacion y Funcionamiento  
 
-   
+   https://docs.google.com/document/d/1PuNxNN2UzeJeA7-kcxHmBqnW7xPMkgYp7WQwcsii37c/edit?usp=sharing
