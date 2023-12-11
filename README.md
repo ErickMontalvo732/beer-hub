@@ -11,6 +11,7 @@ Este proyecto consiste en una aplicación de microservicios que incluye un backe
 ## Configuración
 
 ### Backend
+- **Spring Boot:** 3.2.0
 - **Base de Datos:** PostgreSQL
   - Nombre de la Base de Datos: `BeerDB`
   - Usuario: `.env`
