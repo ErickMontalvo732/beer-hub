@@ -1,0 +1,17 @@
+package com.beerhub.config;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+@Component
+@ConfigurationProperties(prefix = "myapp")
+public class AppConfig {
+	
+	 private String dbHost;
+	 private int dbPort;
+	 private String dbName;
+	 private String dbUsername;
+	 private String dbPassword;
+	 private String hibernateDdlAuto;
+	 private boolean hibernateShowSql;
+}

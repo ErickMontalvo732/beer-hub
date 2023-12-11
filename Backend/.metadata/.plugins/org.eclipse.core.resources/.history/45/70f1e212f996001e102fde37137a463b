@@ -1,0 +1,5 @@
+package com.beer.hub.beer;
+
+public class BeerRepository {
+
+}

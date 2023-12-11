@@ -1,0 +1,12 @@
+package com.beerhub.config;
+
+public class AppConfig {
+	
+	 private String dbHost;
+	 private int dbPort;
+	 private String dbName;
+	 private String dbUsername;
+	 private String dbPassword;
+	 private String hibernateDdlAuto;
+	 private boolean hibernateShowSql;
+}
