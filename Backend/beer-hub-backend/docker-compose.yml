@@ -1,9 +1,9 @@
-version: '3.1'
+version: '3.8'
 
 services:
   beer-backend:
-    image: remerick/beer-hub:1.0.0
-    container_name: beer-hub-app
+    image: remerick/beer-hub-backend:1.0.1
+    container_name: beer-backend-app
     ports:
       - "8081:8080"
     environment:
@@ -13,23 +13,13 @@ services:
     depends_on:
       - db
 
-  beer-frontend:
-    build:
-      context: ../../FrontEnd/BeerHubApp
-    container_name: beer-frontend-app
-    ports:
-      - "80:80"
-    depends_on:
-      - beer-backend
-
   db:
     image: postgres:14.3
-    container_name: postgres-container
+    container_name: postgres-db
     environment:
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USERNAME}
       POSTGRES_PASSWORD: ${DB_PASSWORD}
-
     restart: always
     volumes:
       - postgres-db:/var/lib/postgresql/data

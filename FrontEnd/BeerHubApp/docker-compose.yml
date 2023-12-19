@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  # beer-backend:
+  #   image: remerick/beer-hub-backend:1.0.1
+  #   container_name: beer-backend-app
+  #   ports:
+  #     - "8081:8080"
+  #   environment:
+  #     SPRING_DATASOURCE_URL: jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_NAME}
+  #     SPRING_DATASOURCE_USERNAME: ${DB_USERNAME}
+  #     SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD}
+  #   depends_on:
+  #     - db
+
+  beer-frontend:
+    build:
+      context: ../../Backend/beer-hub-backend
+    container_name: beer-frontend-app
+    ports:
+      - "80:80"
+  #   depends_on:
+  #     - beer-backend
+  # # beer-backend:
+  #   image: remerick/beer-hub-backend:1.0.3
+  #   container_name: beer-backend-app
+  #   ports:
+  #     - "8081:8080"
+
+  # beer-frontend:
+  #   build:
+  #     context: .
+  #   container_name: beer-frontend-app
+  #   ports:
+  #     - "80:80"
+  #   depends_on:
+  #     - beer-backend

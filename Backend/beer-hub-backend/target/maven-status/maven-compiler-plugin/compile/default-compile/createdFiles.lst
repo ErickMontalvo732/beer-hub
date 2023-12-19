@@ -1,6 +1,0 @@
-com\beerhub\beer\service\BeerService.class
-com\beerhub\beer\controller\BeerController.class
-com\beerhub\BeerHubBackendApplication.class
-com\beerhub\config\AppConfig.class
-com\beerhub\beer\model\Beer.class
-com\beerhub\beer\repository\BeerRepository.class
