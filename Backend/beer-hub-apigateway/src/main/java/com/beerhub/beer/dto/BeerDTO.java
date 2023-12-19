@@ -1,32 +1,24 @@
-package com.beerhub.beer.model;
+package com.beerhub.beer.dto;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+public class BeerDTO {
 
-@Entity
-public class Beer {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
     private String type;
-    private Double alcoholContent;
+    private double alcoholContent;
 
 
-    public Beer() {
+    public BeerDTO() {
     }
 
-    public Beer(String name, String type, Double alcoholContent) {
+    public BeerDTO(Long id, String name, String type, double alcoholContent) {
+        this.id = id;
         this.name = name;
         this.type = type;
         this.alcoholContent = alcoholContent;
     }
 
-    // Getters y setters
+
     public Long getId() {
         return id;
     }
@@ -51,11 +43,12 @@ public class Beer {
         this.type = type;
     }
 
-    public Double getAlcoholContent() {
+    public double getAlcoholContent() {
         return alcoholContent;
     }
 
-    public void setAlcoholContent(Double alcoholContent) {
+    public void setAlcoholContent(double alcoholContent) {
         this.alcoholContent = alcoholContent;
     }
+
 }
